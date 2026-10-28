@@ -229,7 +229,7 @@ The `highways/` folder includes 21 high-resolution textures accessible in-game:
 * Linux (Ubuntu 20.04/22.04, Debian, Arch Linux) or WSL2.
 * [OpenOrbis PS4 Toolchain](https://github.com/OpenOrbis/OpenOrbis-PS4-Toolchain) installed and exported:
   ```bash
-  export OO_PS4_TOOLCHAIN="/home/br/Documents/OpenOrbis/PS4Toolchain"
+  export OO_PS4_TOOLCHAIN="/home/username/Documents/OpenOrbis/PS4Toolchain"
   ```
 * Host packages:
   ```bash
@@ -243,15 +243,7 @@ chmod +x *.sh
 ```
 Output package: **`hero_v1.22.pkg`** (installable directly via GoldHEN Package Installer).
 
----
 
-## Publishing Releases to GitHub
-
-1. Build the package: `./build_pkg.sh`
-2. Open: `https://github.com/rieuxmin/Clone-Hero-PS4/releases/new`
-3. Tag: `v1.22` | Title: `Clone Hero PS4 v1.22`
-4. Drag and drop `hero_v1.22.pkg` into the attachments box.
-5. Paste `RELEASE_NOTES_v1.22.md` and click **Publish release**.
 
 ---
 
